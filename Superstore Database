@@ -1,0 +1,17 @@
+SELECT *
+FROM superstore
+ORDER BY price;
+-- Organized the data by price
+
+SELECT AVG(PRICE)
+FROM superstore;
+--getting the average price of the items
+
+SELECT  MAX(price) KitchenSupplies
+FROM superstore;
+-- The maximum price of kitchen supplies
+
+
+SELECT COUNT(stock_quantity),item_name
+From superstore
+-- count the total stock
